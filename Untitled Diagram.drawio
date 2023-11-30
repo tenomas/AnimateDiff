@@ -1,14 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T06:40:37.285Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7840jhjTX-7kpIxK7uSv" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T07:21:40.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QDQ5ZDtdzq1boYJuLyw4" version="22.1.5" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="984" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Hqnh_3BRV2U7smzT3cMi-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;b id=&quot;docs-internal-guid-4b5e2889-7fff-7dd5-3b8c-90923e8e9f7c&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 700; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;범죄대분류&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="140" width="130" height="60" as="geometry" />
+          <mxGeometry x="340" y="140" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hqnh_3BRV2U7smzT3cMi-2" value="범죄중분류" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hqnh_3BRV2U7smzT3cMi-1" target="Hqnh_3BRV2U7smzT3cMi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="260" as="sourcePoint" />
+            <mxPoint x="470" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="160" />
+              <mxPoint x="540" y="160" />
+              <mxPoint x="520" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-4" value="Location" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hqnh_3BRV2U7smzT3cMi-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hqnh_3BRV2U7smzT3cMi-4" target="Hqnh_3BRV2U7smzT3cMi-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="210" as="sourcePoint" />
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hqnh_3BRV2U7smzT3cMi-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="280" as="sourcePoint" />
+            <mxPoint x="160" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hqnh_3BRV2U7smzT3cMi-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="290" as="sourcePoint" />
+            <mxPoint x="210" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="180" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-12" value="강력범죄" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="320" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-13" value="절도범죄" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="315" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-14" value="폭력범죄" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-15" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-a9b1912b-7fff-b64a-bc68-862563de4b0c&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;margin-top:0pt;margin-bottom:0pt;&quot;&gt;&lt;/p&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-21" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hqnh_3BRV2U7smzT3cMi-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="310" as="sourcePoint" />
+            <mxPoint x="360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hqnh_3BRV2U7smzT3cMi-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hqnh_3BRV2U7smzT3cMi-13" target="Hqnh_3BRV2U7smzT3cMi-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="310" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
